@@ -166,14 +166,44 @@
   .mt-\[50px\] {
     margin-top: 50px;
   }
+  .ml-\[10px\] {
+    margin-left: 10px;
+  }
+  .ml-\[30px\] {
+    margin-left: 30px;
+  }
+  .ml-\[50px\] {
+    margin-left: 50px;
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
   }
+  .h-\[80vh\] {
+    height: 80vh;
+  }
   .h-\[100vh\] {
     height: 100vh;
+  }
+  .w-\[10\%\] {
+    width: 10%;
+  }
+  .w-\[10px\] {
+    width: 10px;
+  }
+  .w-\[15\%\] {
+    width: 15%;
+  }
+  .w-\[20\%\] {
+    width: 20%;
+  }
+  .w-\[23\%\] {
+    width: 23%;
+  }
+  .w-\[23\] {
+    width: 23;
   }
   .w-\[30\%\] {
     width: 30%;
@@ -186,6 +216,21 @@
   }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[120px\] {
+    width: 120px;
+  }
+  .w-\[130px\] {
+    width: 130px;
+  }
+  .w-\[160px\] {
+    width: 160px;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -204,6 +249,9 @@
   }
   .resize {
     resize: both;
+  }
+  .flex-col {
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -245,11 +293,17 @@
   .p-\[8px\] {
     padding: 8px;
   }
+  .pt-\[20px\] {
+    padding-top: 20px;
+  }
   .text-center {
     text-align: center;
   }
   .text-\[30px\] {
     font-size: 30px;
+  }
+  .text-\[34px\] {
+    font-size: 34px;
   }
   .text-\[40px\] {
     font-size: 40px;
