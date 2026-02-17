@@ -161,6 +161,81 @@
   }
 }
 @layer utilities {
+  .relative {
+    position: relative;
+  }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
+  .top-\[0px\] {
+    top: 0px;
+  }
+  .top-\[20px\] {
+    top: 20px;
+  }
+  .top-\[40px\] {
+    top: 40px;
+  }
+  .top-\[50px\] {
+    top: 50px;
+  }
+  .top-\[56px\] {
+    top: 56px;
+  }
+  .top-\[59px\] {
+    top: 59px;
+  }
+  .top-\[60p\] {
+    top: 60p;
+  }
+  .top-\[60px\] {
+    top: 60px;
+  }
+  .top-\[80px\] {
+    top: 80px;
+  }
+  .top-\[100px\] {
+    top: 100px;
+  }
+  .bottom-\[0px\] {
+    bottom: 0px;
+  }
+  .bottom-\[30px\] {
+    bottom: 30px;
+  }
+  .bottom-\[100px\] {
+    bottom: 100px;
+  }
+  .bottom-\[200px\] {
+    bottom: 200px;
+  }
+  .bottom-\[240px\] {
+    bottom: 240px;
+  }
+  .bottom-\[250px\] {
+    bottom: 250px;
+  }
+  .bottom-\[300px\] {
+    bottom: 300px;
+  }
+  .bottom-\[380px\] {
+    bottom: 380px;
+  }
+  .bottom-\[390px\] {
+    bottom: 390px;
+  }
+  .bottom-\[399px\] {
+    bottom: 399px;
+  }
+  .bottom-\[400px\] {
+    bottom: 400px;
+  }
+  .left-\[80\%\] {
+    left: 80%;
+  }
+  .left-\[90\%\] {
+    left: 90%;
+  }
   .m-\[a\] {
     margin: a;
   }
@@ -259,6 +334,15 @@
   }
   .h-\[10px\] {
     height: 10px;
+  }
+  .h-\[50vh\] {
+    height: 50vh;
+  }
+  .h-\[60vh\] {
+    height: 60vh;
+  }
+  .h-\[70vh\] {
+    height: 70vh;
   }
   .h-\[80vh\] {
     height: 80vh;
@@ -432,6 +516,9 @@
   .bg-\[\#F2EFE6\] {
     background-color: #F2EFE6;
   }
+  .bg-\[\#FAB5A0\] {
+    background-color: #FAB5A0;
+  }
   .bg-\[black\] {
     background-color: black;
   }
@@ -468,6 +555,12 @@
   .pt-\[20px\] {
     padding-top: 20px;
   }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
+  .pt-\[60px\] {
+    padding-top: 60px;
+  }
   .text-center {
     text-align: center;
   }
@@ -483,8 +576,14 @@
   .text-\[34px\] {
     font-size: 34px;
   }
+  .text-\[35px\] {
+    font-size: 35px;
+  }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[\#163A24\] {
+    color: #163A24;
   }
   .text-\[white\] {
     color: white;
