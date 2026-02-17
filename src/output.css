@@ -236,6 +236,12 @@
   .left-\[90\%\] {
     left: 90%;
   }
+  .m-\[20p\] {
+    margin: 20p;
+  }
+  .m-\[20px\] {
+    margin: 20px;
+  }
   .m-\[a\] {
     margin: a;
   }
@@ -254,6 +260,9 @@
   .mt-\[10px\] {
     margin-top: 10px;
   }
+  .mt-\[10x\] {
+    margin-top: 10x;
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
@@ -265,6 +274,24 @@
   }
   .mt-\[50px\] {
     margin-top: 50px;
+  }
+  .mt-\[60px\] {
+    margin-top: 60px;
+  }
+  .mr-\[20px\] {
+    margin-right: 20px;
+  }
+  .mr-\[40px\] {
+    margin-right: 40px;
+  }
+  .mr-\[50px\] {
+    margin-right: 50px;
+  }
+  .mr-\[60px\] {
+    margin-right: 60px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
   }
   .ml-\[10px\] {
     margin-left: 10px;
@@ -335,6 +362,12 @@
   .h-\[10px\] {
     height: 10px;
   }
+  .h-\[30px\] {
+    height: 30px;
+  }
+  .h-\[40px\] {
+    height: 40px;
+  }
   .h-\[50vh\] {
     height: 50vh;
   }
@@ -401,6 +434,9 @@
   .w-\[50\%\] {
     width: 50%;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[80px\] {
     width: 80px;
   }
@@ -434,6 +470,9 @@
   .w-\[300px\] {
     width: 300px;
   }
+  .w-\[350px\] {
+    width: 350px;
+  }
   .w-\[400px\] {
     width: 400px;
   }
@@ -457,6 +496,9 @@
   }
   .justify-around {
     justify-content: space-around;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
@@ -503,6 +545,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-s {
+    border-inline-start-style: var(--tw-border-style);
+    border-inline-start-width: 1px;
+  }
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
@@ -512,6 +558,9 @@
   }
   .bg-\[\#198C36\] {
     background-color: #198C36;
+  }
+  .bg-\[\#15762E\] {
+    background-color: #15762E;
   }
   .bg-\[\#F2EFE6\] {
     background-color: #F2EFE6;
@@ -524,6 +573,9 @@
   }
   .bg-\[w\] {
     background-color: w;
+  }
+  .bg-\[white\] {
+    background-color: white;
   }
   .bg-\[whitec\] {
     background-color: whitec;
@@ -561,8 +613,23 @@
   .pt-\[60px\] {
     padding-top: 60px;
   }
+  .pl-\[0px\] {
+    padding-left: 0px;
+  }
   .text-center {
     text-align: center;
+  }
+  .text-end {
+    text-align: end;
+  }
+  .text-start {
+    text-align: start;
+  }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -584,6 +651,9 @@
   }
   .text-\[\#163A24\] {
     color: #163A24;
+  }
+  .text-\[green\] {
+    color: green;
   }
   .text-\[white\] {
     color: white;
